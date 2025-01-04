@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shalom's Portfolio Projects</title>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    function goToHomePage() {
+      window.location.href = 'index.html';
+    }
+  </script>
+  <style>
+    .button {
+      display: inline-block;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      transition: background-color 0.3s ease, transform 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #0056b3;
+      transform: scale(1.1);
+    }
+
+    .button:active {
+      background-color: #003f7f;
+    }
+
+    .center {
+      text-align: center; /* Center contents horizontally */
+    }
+
+    img {
+      display: block; /* Ensures the image is treated as a block element */
+      margin: 10px auto; /* Centers the image horizontally */
+    }
+  </style>
+</head>
+<body>
+<header>
+  <h1>Portfolio Projects</h1>
+</header>
+<section>
+  <h2>Calculator App</h2>
+  <div class="center">
+    <!-- Centered GitHub Button -->
+    <img src="calc.jpg" alt="calc" height="200" width="200">
+    <a href="https://github.com/Shalom6/Calculator-App" target="_blank" class="button">Visit GitHub</a>
+  </div>
+
+  <h2>Contact Me</h2>
+  <p>Email: damolaso@hotmail.com</p>
+
+  <button onclick="goToHomePage()">Go Back to Home</button>
+</section>
+<footer>
+  <p>&copy; 2025 Shalom Oyewusi. All rights reserved.</p>
+</footer>
+</body>
+</html>
